@@ -1,0 +1,10 @@
+ create database projetoind;
+use projetoind;
+
+create table cadastro(
+idUsuario int primary key auto_increment,
+nomeUsuario varchar(45),
+emailUsuario varchar (45),
+senha varchar(40)
+);
+

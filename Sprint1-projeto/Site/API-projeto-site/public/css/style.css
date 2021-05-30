@@ -16,8 +16,74 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
+   
     /* background-attachment: fixed;  */
 }
+.inicia {
+    background-image: url(../img/ba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+    /* background-attachment: fixed;  */
+}
+.inicial1 {
+    background-image: url(../img/bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+  
+    /* background-attachment: fixed;  */
+}
+
+.fundol{
+    margin-top: 0;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.713);
+    border-radius: 15px;
+   
+}
+.fundof{
+    margin-top: 0;
+   
+    height: 580px;
+    width: 20%;
+    background-color: #5555553d;
+    border-radius: 15px;
+}
+.fundof p{
+    margin: 0;
+    padding-top: 10px;
+}
+
+.fundof h3{
+    padding-left: 40px;
+}
+.jogador{
+
+    background-color: #555555b3;
+    width: 105px;
+    height: 105px;
+    align-items: center; 
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius:100px;
+    
+}
+
+.lugares {
+  
+    padding-left: 60px;
+}
+
+.fundod{
+
+    background-color: #5555553d;
+    margin-left: 50px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+
 
 
 /* header */
@@ -31,16 +97,23 @@ body {
     /* border-bottom: 3px solid rgb(52, 49, 49); */
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-bottom: 0;
 }
 
 .container {
     width: 80%;
     margin: auto;
 }
+.containerfut {
+    width: 96%;
+    margin: auto;
+    display: flex;
+}
 
 .navbar {
     list-style: none;
     float: right;
+    margin-bottom: 0;
 }
 
 .titulo {
@@ -234,4 +307,35 @@ hr {
 .pkane {
     text-align: center;
     padding-left: 1px;
+}
+
+.placares{
+
+    /* background-color: #555555d2; */
+
+    background-color: #1a1a1ad2;
+    height: 150px; 
+    width: 310px;
+    margin: 40px;
+   
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.placares{
+
+    /* background-color: #555555d2; */
+
+    background-color: #1a1a1ad2;
+    height: 160px; 
+    width: 310px;
+    margin-top: 20px;
+   
+    border-radius: 10px;
+    display: inline-table;
+}
+
+.h2{
+   padding-top: 40px;
+   font-family: 'Sora', sans-serif;
 }
